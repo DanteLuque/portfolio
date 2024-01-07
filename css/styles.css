@@ -174,8 +174,9 @@ body.dark{
 
 @media screen and (min-width:720px){
     .column--right{
-        grid-template-columns: repeat(3, 1fr); 
+        grid-template-columns: repeat(4, 1fr); 
         grid-template-rows: repeat(3, min-content);
+
     }
 }
 
@@ -202,6 +203,13 @@ body.dark{
     font-size: 1.2rem;
 }
 
+.card__title-skill{
+    margin-bottom: 0.5em;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+
 .card__subtitle{
     font-size: 0.9rem;
     opacity: 0.8;
@@ -225,7 +233,7 @@ body.dark{
     }   
 }
 .skills{
-    padding: 1em 0;
+    padding: 0.5em 0;
 }
 
 .skills__header{
@@ -243,7 +251,7 @@ body.dark{
 .skills__item{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     margin-bottom: 0.5em;
 }
 
