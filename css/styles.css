@@ -187,7 +187,7 @@ body.dark{
 }
 
 .card__image-container{
-    min-width: 320px;
+    min-width: 320px; 
     border-radius: var(--border-radius);
     overflow: hidden;
 }
@@ -347,8 +347,8 @@ body.dark{
 .project__tags{
     display: flex;
     justify-content: space-between;
-    margin: 0.5em 0;
-    font-size: 0.6rem;
+    margin: 0.1em 0;
+    font-size: 0.9rem; 
     width: 275px;
 }
 
@@ -356,15 +356,23 @@ body.dark{
 @media screen and (min-width:760px){    
     .project__tags{
      width: 325px;
-     font-size: 0.8rem;
+     font-size: 0.9rem;
     }
 }
 
+
 .project__tag{
-    padding: 0.4em 0.8em;
+    padding: 0.5em 0.5em;
     border-radius: var(--border-radius);
     background-color: var(--primary-color);
     color: var(--bg-color);
+}
+
+@media screen and (max-width: 759px) {
+    .project__tag{
+        padding: 0.5em 0.1em;
+        margin-top: 0.3em;
+    }
 }
 
 .buttons{
