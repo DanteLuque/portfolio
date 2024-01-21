@@ -355,6 +355,13 @@ body.dark {
     --skill-bar-length: 100%;
 }
 
+.card__borde{
+    padding: 1em;
+    border: 2px solid var(--primary-color);
+    border-radius: var(--border-radius);
+    transition: var(--trasition);
+}
+
 .experience {
     display: flex;
     align-items: start;
